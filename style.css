@@ -1,0 +1,48 @@
+body {
+  background-color: #000;
+ }
+
+ h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 171px;
+  padding-top: .2em;
+ }
+ 
+ .jumbotron {
+  color: white;
+  background-image: url("./images/top.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+.hero {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px; 
+  font-weight: bold;
+  font: #fff;
+}
+
+#intro-2 {
+  width: 400px;
+  padding-top: 1em;
+  padding: 3em;
+  
+}
+
+.about {
+  font-size: 20px;
+  font: #000;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 1em;
+}
+
+#about-me {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+.start {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
