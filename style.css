@@ -11,20 +11,21 @@ a.visited {color: #49494b;}
 a.hover {color: #bd8c7d;}
 
 
- h1 {
-  font-size: 20px;
+h1 {
+  font-size: 100px;
   font: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Fredericka the Great', cursive;
 
  }
  
  .jumbotron {
-  background-image: url("bgp.png");
+  background-image: url("./images/bgp.png");
   background-color: #d1bfa7;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 18vh;
+  height: 30vh;
+  
 }
 .hero {
   font-family: 'Raleway', sans-serif;
