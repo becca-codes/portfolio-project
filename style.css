@@ -1,26 +1,37 @@
 body {
-  background-color: #000;
+  background-color: #d1bfa7;
+  
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
  }
 
+a:link {color: #49494b;}
+a.visited {color: #49494b;}
+a.hover {color: #bd8c7d;}
+
+
  h1 {
-  font-family: 'Sacramento', cursive;
-  font-size: 171px;
-  padding-top: .2em;
+  font-size: 20px;
+  font: #fff;
+  font-family: 'Montserrat', sans-serif;
+
  }
  
  .jumbotron {
-  color: white;
-  background-image: url("./images/top.jpg");
+  background-image: url("bgp.png");
+  background-color: #d1bfa7;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40vh;
+  height: 18vh;
 }
 .hero {
   font-family: 'Raleway', sans-serif;
   font-size: 25px; 
   font-weight: bold;
-  font: #fff;
+  font: #d1bfa7;
+  
 }
 
 #intro-2 {
@@ -30,19 +41,26 @@ body {
   
 }
 
+#projects {
+  padding-top: 1em;
+}
+
 .about {
+  font-size: 40px;
+  font: #fff;
+  font-family: 'Nixie One', cursive;
+  
+}
+
+.footer {
   font-size: 20px;
-  font: #000;
+  font: #fff;
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 1em;
 }
 
 #about-me {
   font-family: 'Raleway', sans-serif;
-  color: white;
+  color: #fff;
 }
 
-.start {
-  font-family: 'Raleway', sans-serif;
-  color: white;
-}
