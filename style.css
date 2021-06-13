@@ -11,20 +11,19 @@ a.visited {color: #49494b;}
 a.hover {color: #bd8c7d;}
 
 
-h1 {
-  font-size: 100px;
-  font: #fff;
+h6 {
+  font-size: 30px;
   font-family: 'Fredericka the Great', cursive;
 
  }
  
  .jumbotron {
-  background-image: url("./images/bgp.png");
+  background-image: url("./images/bg.jpg");
   background-color: #d1bfa7;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 30vh;
+  background-size: 1050px 387px;
+  height: 50vh;
   
 }
 .hero {
@@ -53,6 +52,12 @@ h1 {
   
 }
 
+.proj {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font: white;
+  font-size: 19px;
+}
+
 .footer {
   font-size: 20px;
   font: #fff;
@@ -63,5 +68,18 @@ h1 {
 #about-me {
   font-family: 'Raleway', sans-serif;
   color: #fff;
+}
+
+.projects {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font: white;
+  font-size: 19px;
+}
+
+.a-p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font: white;
+  font-size: 19px;
+  font-weight: bold;
 }
 
