@@ -1,22 +1,10 @@
 body {
   background-color: #d1bfa7;
-  
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-attachment: fixed;
  }
 
-a:link {color: #49494b;}
-a.visited {color: #49494b;}
-a.hover {color: #bd8c7d;}
-
-
-h6 {
-  font-size: 30px;
-  font-family: 'Fredericka the Great', cursive;
-
- }
- 
  .jumbotron {
   background-image: url("./images/bg.jpg");
   background-color: #d1bfa7;
@@ -24,62 +12,44 @@ h6 {
   background-repeat: no-repeat;
   background-size: 1050px 387px;
   height: 50vh;
-  
-}
-.hero {
-  font-family: 'Raleway', sans-serif;
-  font-size: 25px; 
-  font-weight: bold;
-  font: #d1bfa7;
-  
 }
 
-#intro-2 {
-  width: 400px;
-  padding-top: 1em;
-  padding: 3em;
-  
-}
-
-#projects {
-  padding-top: 1em;
+#about-me {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
 }
 
 .about {
   font-size: 40px;
   font: #fff;
-  font-family: 'Nixie One', cursive;
+  font-family: 'Nixie One', cursive; 
+}
+
+#projects {
+  background-color: #8e8e90;
+  font-family: 'Open Sans Condensed', sans-serif;
   
+  font-size: 30px;
+  padding-bottom: .5em;
 }
 
 .proj {
   font-family: 'Open Sans Condensed', sans-serif;
-  font: white;
+  
   font-size: 19px;
 }
+
+
 
 .footer {
   font-size: 20px;
-  font: #fff;
-  font-family: 'Montserrat', sans-serif;
+
+  font-family: 'Stint Ultra Condensed', cursive;
   padding-bottom: 1em;
 }
 
-#about-me {
-  font-family: 'Raleway', sans-serif;
-  color: #fff;
-}
-
-.projects {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font: white;
-  font-size: 19px;
-}
-
-.a-p {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font: white;
-  font-size: 19px;
-  font-weight: bold;
-}
+h6 {
+  font-size: 30px;
+  font-family: 'Fredericka the Great', cursive;
+ }
 

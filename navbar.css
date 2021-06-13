@@ -1,0 +1,16 @@
+.navbar {
+  font: #bd8c7d;
+  font-family: 'Nixie One', cursive; 
+  font-weight: bold;
+  font-size: 21px;
+  background-color: #d1bfa7;
+}
+
+.navbar-brand {
+  padding-left: 3em;
+}
+
+a.nav-lk:link {color: #49494b;}
+a.nav-lk:visited {color: #49494b;}
+a.nav-lk:hover {color: #bd8c7d; text-decoration: underline;}
+a.nav-lk {padding-right: 10px;}
