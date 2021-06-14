@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: contain;
  }
 
  .jumbotron {
@@ -28,22 +29,17 @@ body {
 #projects {
   background-color: #8e8e90;
   font-family: 'Open Sans Condensed', sans-serif;
-  
   font-size: 30px;
   padding-bottom: .5em;
 }
 
 .proj {
   font-family: 'Open Sans Condensed', sans-serif;
-  
   font-size: 19px;
 }
 
-
-
 .footer {
   font-size: 20px;
-
   font-family: 'Stint Ultra Condensed', cursive;
   padding-bottom: 1em;
 }
@@ -53,3 +49,24 @@ h6 {
   font-family: 'Fredericka the Great', cursive;
  }
 
+ @media (max-width: 360px){
+    
+  .jumbotron {background-size: 360px 640px;}
+    #about-me {font-size: 12px;}
+    .about {font-size: 20px;}
+    #projects {font-size: 15px;}
+    .proj {font-size: 12px;}
+    .m-360 {width: 50%; height: auto;}
+ }
+
+ @media (max-width: 375px){
+   .jumbotron {background-size: 300px 300px; background-image: url("./images/logo.jpg");}
+   .about {font-size: 30px;}
+   #about-me {font-size: 15px;}
+   #projects {font-size: 20px}
+   #pc {align-content: center;}
+ }
+
+ @media (max-width: 768px){
+  #projects {font-size: 20px}
+ }
